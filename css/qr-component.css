@@ -1,5 +1,27 @@
-body {
-    background-color: gray;
-    color: rgb(87, 10, 10);
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lightgray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
 }
 
+body {
+    background-color: var(--grayish-blue);
+    /* color: rgb(87, 10, 10); */
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    font-size: .7rem;
+    background-color: var(--white);
+}
+
+#top {
+    width: 100%;
+    height: ;
+}
